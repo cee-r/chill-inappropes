@@ -1,10 +1,1 @@
-/*body {
-
-  background-color: red;
-
-  background-image: linear-gradient(red, orange);
-
-  background: red;
-  background: linear-gradient(red, orange);
-
-}*/
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One|Permanent+Marker");html,body{height:100%}body{font-size:14px;box-sizing:border-box;position:relative;background-image:linear-gradient(to right, #6dcff7, #82ca9c)}.container{width:650px;height:650px;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);border-radius:50%;background:#eee}@media screen and (max-width: 768px){.container{width:95%;height:auto;position:relative;position:relative}.container:before{display:block;content:"";width:100%;padding-top:100%}.container>.content{position:absolute;top:0;left:0;right:0;bottom:0}}.circle{width:95%;height:95%;margin:1.25em auto;border-radius:50%;border:10px solid #fff}@media screen and (max-width: 768px){.circle{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto}}h1{font-family:'Leckerli One', cursive;font-size:5em;color:#fff}h2{font-family:'Permanent Marker', sans-serif;font-size:3em;color:#fff;text-transform:uppercase}h3{font-family:'Permanent Marker', sans-serif;font-size:2em;color:#fff}
