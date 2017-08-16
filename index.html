@@ -38,7 +38,7 @@
 <body>
 
 	<div class="container">
-		<div class="circle">
+		<div class="circle" data-tilt>
 			<div class="text">
 				<h2>Damn Dawg, that's</h2>
 				<h1>inappropes</h1>
@@ -51,9 +51,16 @@
 		window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.3.min.js'>\x3C/script>")
 	</script>
 
+  <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
+
 	<script src="assets/js/functions.js"></script>
 	<script>
 		$(document).ready(initPage);
+
+		$('.js-tilt').tilt({
+    	glare: true,
+    	maxGlare: 1
+		})
 	</script>
 
 </body>
