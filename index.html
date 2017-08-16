@@ -58,6 +58,7 @@
 		$(document).ready(initPage);
 
 		const tilt = $('.js-tilt').tilt();
+		tilt.on('onDrag', callback);  // parameters: event, transforms
 		tilt.on('onClick', callback);  // parameters: event, transforms
 		tilt.on('change', callback);  // parameters: event, transforms
 		tilt.on('tilt.mouseLeave', callback); // parameters: event
