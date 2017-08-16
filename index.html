@@ -57,6 +57,12 @@
 	<script>
 		$(document).ready(initPage);
 
+		const tilt = $('.js-tilt').tilt();
+		tilt.on('click', callback);  // parameters: event, transforms
+		tilt.on('change', callback);  // parameters: event, transforms
+		tilt.on('tilt.mouseLeave', callback); // parameters: event
+		tilt.on('tilt.mouseEnter', callback); // parameters: event
+
 		$('.js-tilt').tilt({
     	glare: true,
     	maxGlare: 1
