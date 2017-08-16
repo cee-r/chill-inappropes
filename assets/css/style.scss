@@ -66,6 +66,7 @@ body {
   background: #77ccc9 url(../img/pam.gif) no-repeat 50% 130%; /*keep*/
   background-size: 50% auto;
   background-blend-mode: darken;
+  //transform-style: preserve-3d;
 
   @media #{$break-medium} {
     position: absolute;
@@ -91,6 +92,7 @@ h1 {
   color: #fff;
   text-shadow: 0 3px 3px rgba(0,0,0,0.2);
   margin-top: -0.2em;
+  //transform: translateZ(20px);
 }
 h2 {
   font-family: 'Permanent Marker', sans-serif;
@@ -98,4 +100,5 @@ h2 {
   font-size: 4vmin;
   line-height: 1;
   color:#fff;
+  //transform: translateZ(20px);
 }
