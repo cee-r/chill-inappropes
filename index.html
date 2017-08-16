@@ -39,7 +39,7 @@
 
 	<div class="container">
 		<div class="circle" data-tilt>
-			<div class="text">
+			<div class="text noselect">
 				<h2>Damn Dawg, that's</h2>
 				<h1>inappropes</h1>
 			</div>
@@ -56,13 +56,6 @@
 	<script src="assets/js/functions.js"></script>
 	<script>
 		$(document).ready(initPage);
-
-		const tilt = $('.js-tilt').tilt();
-		tilt.on('onDrag', callback);  // parameters: event, transforms
-		tilt.on('onClick', callback);  // parameters: event, transforms
-		tilt.on('change', callback);  // parameters: event, transforms
-		tilt.on('tilt.mouseLeave', callback); // parameters: event
-		tilt.on('tilt.mouseEnter', callback); // parameters: event
 
 		$('.js-tilt').tilt({
     	glare: true,
