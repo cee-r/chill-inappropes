@@ -60,12 +60,14 @@ body {
   width:95%;
   height:95%;
   margin:1.25em auto;
+  display: block;
   border-radius: 50%;
   border:10px solid #fff;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   background: #77ccc9 url(../img/pam.gif) no-repeat 50% 130%; /*keep*/
   background-size: 50% auto;
   background-blend-mode: darken;
+  cursor:pointer;
   //transform-style: preserve-3d;
 
   @media #{$break-medium} {
@@ -76,6 +78,10 @@ body {
     bottom:0;
     margin:auto;
   }
+}
+
+.circle:hover {
+  background-blend-mode: multiply;  
 }
 
 .text {
