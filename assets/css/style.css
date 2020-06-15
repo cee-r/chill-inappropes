@@ -19,7 +19,7 @@ body { font-size: 14px; box-sizing: border-box; position: relative; background-i
 
 .text { text-align: center; margin: 25% auto 0; text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); }
 
-h1 { font-family: 'Leckerli One', cursive; font-size: 8em; font-size: 12vmin; line-height: 1; color: #fff; text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); margin-top: -0.2em; }
+h1 { font-family: 'Leckerli One', cursive; font-size: 8em; line-height: 1; color: #fff; text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); margin-top: -0.2em; }
 
 h2 { font-family: 'Permanent Marker', sans-serif; font-size: 2em; font-size: 4vmin; line-height: 1; color: #fff; }
 
